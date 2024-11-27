@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+</head>
+<style>
+    h1{padding-left: 200px;}
+    .form{
+        padding: 50px;
+        border: solid 2px ;
+        width: max-content;
+        margin-left: 30px;
+    }
+    .fn{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .Pass{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+    .Password{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+    .email{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .phone{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .card{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .zip{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .cardn{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    .exp{
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+</style>
+<body>
+    <div class="form">
+    <h1>Register Account</h1>
+      <form action="">
+        <div class="fn">
+        <label for="name">Full Name</label><span style="padding-left: 55px;">
+<input type="text" id="name" placeholder="as"> <span 
+style="color: red;"> &emsp; &emsp; User name must be at 
+least 4 characters</span></span>
+        </div>
+        <div class="Password">
+            Password <span style="padding-left: 60px;"></span><input type="text" id="Password" placeholder="**">
+            <span 
+style="color: red;"> &emsp; &emsp; Password must be at 
+least 4 characters</span></span>
+        </div>
+        <div class="Pass">
+Confirm Password: <input type="text" id="Password" placeholder="****">
+            <span 
+style="color: red;"> &emsp; &emsp; Password do not match</span>
+ <div class="email">
+    <label for="email">Email:</label><span style="padding-left: 80px;">
+    <input type="email" id="email" placeholder="john@gmail.com"> <span 
+    style="color: red;"> &emsp; &emsp; Invalid email format</span></span>
+    <span style="padding-left: 50px;"><br>
+    <span style="padding-left: 125px ;">Format:john@gmail.com</span></span>
+                </div>
+            <div class="phone">
+ <label for="number">Phone Number:</label><span style="padding-left: 20px;">
+<input type="number" id="number" placeholder="11111111"> <span 
+style="color: red;"> &emsp; &emsp; Invalid phone number</span>
+<span style="padding-left: 50px;"><br>
+<span style="padding-left: 125px ;">Format:0xxx-xxxx-xxxx</span></span>
+                        </div><br></span>
+                    <div class="zip">
+ <label for="number">Zip Code:</label><span style="padding-left: 55px;">
+<input type="number" id="number" placeholder="11111111"> <span 
+style="color: red;"> &emsp; &emsp; Invalid Zip code</span>
+<span style="padding-left: 50px;"><br>
+<span style="padding-left: 120px ;">
+    Format:Use 5 or 9 digits Zip Code</span></span>
+</span></div>
+        <div class="card">
+        <label for="number">Card Type:</label>
+        <span style="padding-left: 25px;">
+<span style="padding-left: 20px;">
+    <select name="card" id="card">
+    </span>
+    <option value="">Visa</option>
+    <option value="">Paypal</option>
+    </select>
+        </div>
+    <div class="cardn">
+<label for="number">Card Number:</label><span style="padding-left: 25px;">
+
+   <input type="number" id="number" placeholder="11111111"> <span 
+   style="color: red;"> &emsp; &emsp; Invalid card number format</span>
+   <span style="padding-left: 100px;"><br>
+   <span style="padding-left: 120px ;">Format:1111-2222-3333
+    -4444</span></span>
+    </div>
+    <div class="exp">
+        <label for="number">Expiration Date:</label> 
+        <span style="padding-left: 8px;">
+
+       <input type="number" id="number" placeholder="11111111"> <span 
+       style="color: red;"> &emsp; &emsp; Invalid date format</span>
+       <span style="padding-left: 60px;"><br>
+       <span style="padding-left: 115px ;">Format:yyyy-MM-DD</span></span>
+        </div>
+        
+        <span style="padding-left: 200px;" ><input type="submit" 
+            value="Register"> <input type="reset" value="Clear Form"></span>
+      </form>
+    </div>
+</body>
+</html>
